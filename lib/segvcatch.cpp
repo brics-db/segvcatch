@@ -6,6 +6,8 @@
 
 #include "segvcatch.h"
 
+#include <unistd.h>
+#include <sys/syscall.h>
 #include <string>
 #include <stdexcept>
 
